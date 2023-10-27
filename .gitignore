@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 __pycache__/
 *.pyc
-=======
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
@@ -24,4 +22,3 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
->>>>>>> 3f2c0797ef734fc44523760b297565a9a46f05da

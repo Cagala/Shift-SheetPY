@@ -8,8 +8,9 @@ from os import system, name, path
 def clearConsole():
     system('cls' if name == 'nt' else 'clear')
 
-googleConnect = ConnectGoogle(path.dirname(__file__)) #Config dosyasından Credentials tokeni alır ve config
-                                                      #dosyası yoksa oluşturur, bozuksa silip yenisini oluşturur
+googleConnect = ConnectGoogle(path.dirname(__file__)) #It retrieves the Credentials token from the config file 
+                                                      #and creates a new one if the config file doesn't exist 
+                                                      # or replaces it if it's corrupted.
 
 config = return_config(path.dirname(__file__)+r"\Assets\Config\sheet_config.ini")
 SHEET_NAME = config["Sheet"]["SheetName"]
