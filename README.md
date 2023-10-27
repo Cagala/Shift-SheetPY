@@ -49,7 +49,7 @@ If your python version is 3.11.3, you can use the program by .bat file.
 If your python version is newer or older, you can put your python.exe file to Assets folder
 and change the older one.
 
-!But, the included python.exe could be invisible. You should make sure your folder options shows
+**But**: The included python.exe could be invisible. You should make sure your folder options shows
 invisible folders.
 
 #### Without .bat
