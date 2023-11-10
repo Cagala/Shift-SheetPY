@@ -24,9 +24,9 @@ while True:
              To add shift score to officers: 2 (The list will be deleted)
              To show officer list: 3
           """)
-    seçim = str(input("Your choice: "))
+    choice = str(input("Your choice: "))
 
-    if seçim == "1":
+    if choice == "1":
         clearConsole()
         print("""
                  Enter 'e' for back to main menu.
@@ -74,7 +74,7 @@ while True:
                     print(ccolors.FAIL + "!!! Error occured while querying. Please try again." + ccolors.ENDC)
 
     
-    elif seçim == "2":
+    elif choice == "2":
         clearConsole()
         if userList:
             data2 = []
@@ -104,7 +104,7 @@ while True:
             print(f"""{ccolors.FAIL}The employees list is empty! Choice the first option from the list then enter the person that you want to assing shift point to.{ccolors.ENDC}
 ----------------------------------------------------------------------------------------""")
 
-    elif seçim == "3":
+    elif choice == "3":
         if userList:
             data = []
             for i in userList:
