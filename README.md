@@ -7,7 +7,7 @@ it manuelly.
 That automation console program takes officer name or a list of names as input and assigns them a 1-point increase score in the 
 related Google Sheet. . 
 
-![alt text](https://cdn.discordapp.com/attachments/1096569339886456883/1167486413583953980/Adsz.png)
+![Guidance](http://drive.google.com/uc?export=view&id=12HcpaMzEIe9YJV4_cgWIjOGMVdxhV9lT)
 
 ## Getting Started
 
