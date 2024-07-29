@@ -13,7 +13,7 @@ related Google Sheet. .
 
 You can follow the steps below to run and develop the project on your local machine.
 
-### Gereksinimler
+### Requirements
 
 You will need the following software and tools for the project:
 
