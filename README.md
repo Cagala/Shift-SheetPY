@@ -5,7 +5,9 @@ stored in digital as a list that seperated by commas. The watch commander, who i
 it manuelly. 
 
 That automation console program takes officer name or a list of names as input and assigns them a 1-point increase score in the 
-related Google Sheet. . 
+related Google Sheet.
+
+Also you can fit it to any Sheet template with correct configuration settings. (system > Assets > Config > sheet_config.ini)
 
 ![Guidance](http://drive.google.com/uc?export=view&id=12HcpaMzEIe9YJV4_cgWIjOGMVdxhV9lT)
 
